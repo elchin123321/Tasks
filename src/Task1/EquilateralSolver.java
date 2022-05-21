@@ -1,7 +1,7 @@
 package Task1;
 
-public class EquilateralResolver extends Resolver{
-    protected EquilateralResolver() {
+public class EquilateralSolver extends Solver {
+    protected EquilateralSolver() {
         super(Triangle.TriangleType.EQUILATERAL);
     }
 

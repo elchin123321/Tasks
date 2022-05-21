@@ -1,7 +1,7 @@
 package Task1;
 
-public class IsoscelesResolver extends Resolver{
-    protected IsoscelesResolver() {
+public class IsoscelesSolver extends Solver {
+    protected IsoscelesSolver() {
         super(Triangle.TriangleType.ISOSCELES);
     }
 

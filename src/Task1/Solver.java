@@ -1,9 +1,9 @@
 package Task1;
 
-public abstract class Resolver implements AreaCalculator {
+public abstract class Solver implements AreaCalculator {
     private final Triangle.TriangleType triangleType;
 
-    protected Resolver(Triangle.TriangleType triangleType) {
+    protected Solver(Triangle.TriangleType triangleType) {
         this.triangleType = triangleType;
     }
 

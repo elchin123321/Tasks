@@ -1,7 +1,7 @@
 package Task1;
 
-public class RectangularResolver extends Resolver{
-    protected RectangularResolver() {
+public class RectangularSolver extends Solver {
+    protected RectangularSolver() {
         super(Triangle.TriangleType.RECTANGULAR);
     }
 

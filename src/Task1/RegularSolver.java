@@ -1,7 +1,7 @@
 package Task1;
 
-public class RegularResolver extends Resolver{
-    protected RegularResolver() {
+public class RegularSolver extends Solver {
+    protected RegularSolver() {
         super(Triangle.TriangleType.REGULAR);
     }
 
